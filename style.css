@@ -1,0 +1,52 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f5f5f5;
+	color: #333;
+}
+
+header {
+	background-color: #1a1a1a;
+	color: lawngreen;
+	padding: 1rem;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	padding: 20px 100px;
+	margin: 0;
+	background: darkred;
+	align-items: center;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+section {
+	padding: 2rem;
+	margin: 2rem 5%;
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hero-role {
+	margin-bottom: 1rem;
+}
+
+footer {
+	background-color: #1a1a1a;
+	color: white;
+	text-align: center;
+	padding: 1rem;
+	position: relative;
+	width: 100%;
+	bottom: 0;
+}
